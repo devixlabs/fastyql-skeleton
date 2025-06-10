@@ -17,3 +17,10 @@ This is a minimal FastAPI application with a single echo endpoint. The project u
 - **main.py**: Contains the FastAPI application with a single GET endpoint `/api/echo` that returns query parameters as JSON
 - **pyproject.toml**: Poetry configuration with Python 3.10+ requirement and FastAPI/uvicorn dependencies
 - Project is configured as non-installable (package-mode = false) since it's a simple script-based application
+
+## TODOs
+
+- Implement GraphQL for client connecting using Graphene
+- Create a POST endpoint that echos the request body
+- Add authentication using an OAuth2 library
+- Connect to a local Postgres database using SQLAlchemy
