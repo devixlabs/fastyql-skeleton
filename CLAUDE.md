@@ -9,7 +9,7 @@ This is a minimal FastAPI application with a single echo endpoint. The project u
 ## Development Commands
 
 - Install dependencies: `poetry install`
-- Run the server: `poetry run uvicorn main:app --host 0.0.0.0 --port 8000`
+- Run the server: `./run.sh`
 - Run with auto-reload for development: `poetry run uvicorn main:app --reload`
 
 ## Architecture
