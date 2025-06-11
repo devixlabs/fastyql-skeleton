@@ -10,7 +10,7 @@ This is a minimal FastAPI application with a single echo endpoint. The project u
 
 - Install dependencies: `poetry install`
 - Run the server: `./run.sh`
-- Run with auto-reload for development: `poetry run uvicorn main:app --reload`
+- Run with auto-reload for development: `./run.sh --reload`
 
 ## Architecture
 
@@ -20,7 +20,5 @@ This is a minimal FastAPI application with a single echo endpoint. The project u
 
 ## TODOs
 
-- Implement GraphQL for client connecting using Graphene
-- Create a POST endpoint that echos the request body
 - Add authentication using an OAuth2 library
 - Connect to a local Postgres database using SQLAlchemy
